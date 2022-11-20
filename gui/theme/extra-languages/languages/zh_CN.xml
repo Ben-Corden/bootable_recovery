@@ -138,7 +138,7 @@
 		<string name="factory_reset_hdr">恢复出厂设置（双清）</string>
 		<string name="factory_reset_btn">恢复出厂</string>
 		<string name="factory_reset1">这将会清空 Data、Cache 分区和 Dalvik 缓存</string>
-		<string name="factory_reset2">（不会清除内置存储/sdcard）</string>
+		<string name="factory_reset2">（不会清除内置存储 /sdcard）</string>
 		<string name="factory_reset3">在大多数情况下，您只需要</string>
 		<string name="factory_reset4">执行此操作即可。</string>
 		<string name="factory_reset5">（不包括用户/锁屏）</string>
@@ -180,10 +180,10 @@
 		<string name="part_present_no">当前：否</string>
 		<string name="part_removable_yes">可移除：是</string>
 		<string name="part_removable_no">可移除：否</string>
-		<string name="part_size">大小: %tw_partition_size%MB</string>
-		<string name="part_used">已用: %tw_partition_used%MB</string>
-		<string name="part_free">空闲: %tw_partition_free%MB</string>
-		<string name="part_backup_size">备份大小: %tw_partition_backup_size%MB</string>
+		<string name="part_size">大小: %tw_partition_size% MB</string>
+		<string name="part_used">已用: %tw_partition_used% MB</string>
+		<string name="part_free">空闲: %tw_partition_free% MB</string>
+		<string name="part_backup_size">备份大小: %tw_partition_backup_size% MB</string>
 		<string name="resize_btn">调整文件系统</string>
 		<string name="resize_btn_s">调整</string>
 		<string name="resize_confirm">是否调整 %tw_partition_name%？</string>
@@ -510,7 +510,7 @@
 		<string name="unpacking_image">正在解包 {1}…</string>
 		<string name="repacking_image">正在打包 {1}…</string>
 		<string name="repack_image_hdr">选择镜像</string>
-		<string name="repack_overwrite_warning">如果设备之前有root权限，现在可能被覆盖，请重新获取root权限。</string>
+		<string name="repack_overwrite_warning">如果设备之前有 Root 权限，现在可能被覆盖，请重新获取 Root 权限。</string>
 		<string name="reflash_twrp">刷入当前的 TWRP</string>
 		<string name="reflash_twrp_confirm">是否刷入当前的 TWRP？</string>
 		<string name="reflashing_twrp">正在刷入 TWRP...</string>
@@ -539,11 +539,11 @@
 
 		<!-- Various console messages - these consist of user displayed messages, oftentimes errors -->
 		<string name="no_kernel_selinux">内核不支持读取 SELinux Context。</string>
-		<string name="full_selinux">完整 SELinux 支持。</string>
+		<string name="full_selinux">完整 SELinux 支持</string>
 		<string name="no_selinux">无 SELinux 支持（无 libselinux）。</string>
 		<string name="mtp_enabled">MTP 已启用</string>
 		<string name="mtp_crash">MTP 已崩溃。启动时不再加载 MTP。</string>
-		<string name="decrypt_success">已使用默认密码解密成功。</string>
+		<string name="decrypt_success">已使用默认密码解密成功</string>
 		<string name="unable_to_decrypt">无法使用默认密码来解密，您可能需要格式化 Data 分区。</string>
 		<string name="generating_digest1" version="2">正在生成 Digest</string>
 		<!-- Message displayed during a backup if we are generating an Digest, ideally, leave the leading " * " to help align and separate this text from other console text -->
@@ -556,16 +556,16 @@
 		<string name="unable_to_locate_partition">未找到“{1}”分区。</string>
 		<string name="no_partition_selected">未选择备份分区。</string>
 		<string name="total_partitions_backup"> * 备份分区总数: {1}</string>
-		<string name="total_backup_size"> * 备份数据总计: {1}MB</string>
-		<string name="available_space"> * 可用空间: {1}MB</string>
+		<string name="total_backup_size"> * 备份数据总计: {1} MB</string>
+		<string name="available_space"> * 可用空间: {1} MB</string>
 		<string name="unable_locate_storage">未找到存储设备。</string>
 		<string name="no_space">存储器上没有足够的空间。</string>
 		<string name="backup_started">[已开始备份]</string>
 		<string name="backup_folder"> * 备份文件夹: {1}</string>
 		<string name="fail_backup_folder">建立备份文件夹失败。</string>
-		<string name="avg_backup_fs">文件平均备份速度: {1}MB/秒</string>
-		<string name="avg_backup_img">镜像平均备份速度: {1}MB/秒</string>
-		<string name="total_backed_size">[总计备份 {1}MB]</string>
+		<string name="avg_backup_fs">文件平均备份速度: {1} MB/秒</string>
+		<string name="avg_backup_img">镜像平均备份速度: {1} MB/秒</string>
+		<string name="total_backed_size">[总计备份 {1} MB]</string>
 		<string name="backup_completed">[备份已完成，耗时 {1} 秒]</string>
 		<string name="restore_started">[已开始还原]</string>
 		<string name="restore_folder">恢复文件夹:“{1}”</string>
@@ -626,7 +626,7 @@
 		<string name="repair_not_exist">{1} 不存在！无法修复！</string>
 		<string name="repairing_using">正在使用 {2} 修复 {1}…</string>
 		<string name="unable_repair">无法修复 {1}。</string>
-		<string name="mount_data_footer">无法挂载/data，未找到加密 footer。</string>
+		<string name="mount_data_footer">无法挂载 /data，未找到加密 footer。</string>
 		<!-- {1} is the folder name that we could not create, {2} is strerror output -->
 		<string name="create_folder_strerr">无法创建“{1}”文件夹 ({2})。</string>
 		<!-- {1} is the folder name that we could not mount, {2} is strerror output -->
@@ -640,13 +640,13 @@
 		<string name="digest_fail_match" version="2">“{1}” Digest 校验失败。</string>
 		<string name="digest_matched" version="2">Digest 匹配“{1}”。</string>
 		<string name="fail_decrypt_tar">无法解密 Tar 文件“{1}”</string>
-		<string name="format_data_msg">您可能需要重启 Recovery 才能使用/data。</string>
+		<string name="format_data_msg">您可能需要重启 Recovery 才能使用 /data。</string>
 		<string name="format_data_err">无法格式化并删除加密。</string>
 		<string name="formatting_using">使用 {2} 格式化 {1}…</string>
 		<string name="unable_to_wipe">无法清除 {1}。</string>
 		<string name="cannot_wipe">无法清除 {1} 分区。</string>
 		<string name="remove_all">移除“{1}”下的所有文件</string>
-		<string name="wiping_data">正在清除 Data 分区，跳过清除/data/media…</string>
+		<string name="wiping_data">正在清除 Data 分区，跳过清除 /data/media …</string>
 		<string name="backing_up">正在备份 {1}…</string>
 		<string name="backup_storage_warning">备份的 {1} 分区不包含内置存储上的任何文件，例如照片或下载的文件等等。</string>
 		<string name="backing">正在备份</string>
@@ -672,8 +672,8 @@
 		<string name="making_dir2">创建目录:“{1}”</string>
 		<string name="running_command">运行命令</string>
 		<string name="sideload">ADB Sideload</string>
-		<string name="start_sideload">正在开始 ADB sideload…</string>
-		<string name="need_new_adb">您需要 1.0.32 或更高版本的 adb 才可以使用。</string>
+		<string name="start_sideload">正在开始 ADB Sideload…</string>
+		<string name="need_new_adb">您需要 1.0.32 或更高版本的 Platform Tools 才可以使用。</string>
 		<string name="no_pwd">未提供密码。</string>
 		<string name="done_ors">脚本执行完毕</string>
 		<string name="injecttwrp">正在注入 TWRP 到 Boot 镜像…</string>
@@ -704,14 +704,14 @@
 		<string name="dumlock_restore">正在恢复原版 Boot…</string>
 		<string name="dumlock_reflash">正在重新刷入 Recovery 到 Boot…</string>
 		<string name="run_script">正在运行 {1} 脚本…</string>
-		<string name="rename_stock">重命名/system 下原版 Recovery 的补丁文件，避免原厂固件替换 TWRP。</string>
+		<string name="rename_stock">重命名 /system 下原版 Recovery 的补丁文件，避免原厂固件替换 TWRP。</string>
 		<string name="split_backup">分解备份文件为多个压缩文件…</string>
 		<string name="backup_error">建立备份失败。</string>
 		<string name="restore_error">在恢复过程中发生错误。</string>
 		<string name="split_thread">拆分线程 ID {1} 到压缩文件 {2}</string>
 		<!-- These 2 items are saved in the data manager instead of resource manager, so %llu, etc is correct instead of {1} -->
 		<string name="file_progress">已完成 %llu 个，共 %llu 个文件，进度 %i%%</string>
-		<string name="size_progress">已完成 %lluMB，共 %lluMB，进度 %i%%</string>
+		<string name="size_progress">已完成 %lluMB，共 %llu MB，进度 %i%%</string>
 		<string name="decrypt_cmd" version="2">正在尝试通过命令行解密 Data 分区或用户数据。</string>
 		<string name="base_pkg_err">无法加载基本包。</string>
 		<string name="simulating">正在模拟操作…</string>
@@ -738,7 +738,7 @@
 		<string name="install_reboot" version="2">将会在 %tw_sleep% 秒内重启</string>
 		<string name="adbbackup_error">ADB 备份错误。正在退出…"</string>
 		<string name="adbbackup_control_error">无法写入 adb 控制通道</string>
-		<string name="twrp_adbbu_option">启用 TWRP ADB 备份需使用 --twrp 选项</string>
+		<string name="twrp_adbbu_option">启用 TWRP ADB 备份需使用 -- TWRP 选项</string>
 		<string name="partition_not_found">分区列表中未发现路径: {1}</string>
 		<string name="copy_kernel_log">已导出 kernel 日志到 {1}</string>
 		<string name="copy_logcat">已导出 logcat 日志到 {1}</string>
@@ -768,7 +768,7 @@
 		<string name="restore_system_context">无法获取 {1} 的默认 context -- Android 可能无法启动。</string>
 		<string name="change_twrp_folder_btn">更改 TWRP 文件夹</string>
 		<string name="change_twrp_folder_on_process">正在更改 TWRP 文件夹</string>
-		<string name="change_twrp_folder_after_process">TWRP文件夹已改为</string>
+		<string name="change_twrp_folder_after_process">TWRP 文件夹已改为</string>
 		<string name="tw_folder_exists">已存在同名文件夹！</string>
 		<string name="unmap_super_devices">取消 Super Devices 映射</string>
 		<string name="unmap_super_devices_confirm">是否取消所有 Super Devices 映射？</string>
@@ -779,7 +779,7 @@
 		<string name="merging_snapshots">正在合并快照...</string>
 		<string name="merging_snapshots_complete">合并快照完成！</string>
 		<string name="mount_vab_partitions">在重新启动 TWRP 之前，Super Devices 上的分区可能不会挂载。</string>
-		<string name="restore_pin_password">是否在 PIN码/混合密码 启用时进行恢复？</string>
+		<string name="restore_pin_password">是否在 PIN 码/混合密码 启用时进行恢复？</string>
 		<string name="restore_pattern">是否在 图案密码 启用时恢复？</string>
 		<string name="restore_pin">是否在 PIN 码 启用时恢复？</string>
 		<string name="continue_restore_encrypted">是否继续恢复？</string>
@@ -804,7 +804,7 @@
 		<string name="disable_avb2_confirm">是否禁用 AVB 2.0？</string>
 		<string name="disabling_AVB2">正在禁用 AVB 2.0...</string>
 		<string name="disabling_AVB2_complete">禁用 AVB 2.0 完成！</string>
-		<string name="disable_avb2_success_msg">禁用AVB 2.0：处理 '{1}' 成功。</string>
-		<string name="disable_avb2_fail_msg">禁用AVB 2.0：处理 '{1}' 失败！</string>
+		<string name="disable_avb2_success_msg">禁用 AVB 2.0：处理 '{1}' 成功。</string>
+		<string name="disable_avb2_fail_msg">禁用 AVB 2.0：处理 '{1}' 失败！</string>
 	</resources>
 </language>
