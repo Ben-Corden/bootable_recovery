@@ -76,7 +76,7 @@
 		<variable name="tw_hide_kb" value="0"/>
 		<variable name="screen_width" value="1080"/>
 		<variable name="screen_height" value="1920"/>
-		<variable name="status_height" value="72"/>
+		<variable name="status_height" value="82"/>
 		<variable name="header_height" value="256"/>
 		<variable name="navbar_height" value="130"/>
 		<variable name="content_width" value="1008"/>
@@ -114,7 +114,7 @@
 		<variable name="btn4_col3_x" value="558"/>
 		<variable name="btn4_col4_x" value="819"/>
 		<variable name="status_topalign_header_y" value="4"/>
-		<variable name="status_centeralign_header_y" value="15"/>
+		<variable name="status_centeralign_header_y" value="30"/>
 		<variable name="status_bottomalign_header_y" value="30"/>
 		<variable name="row1_header_y" value="{statusicons_align}"/>
 		<variable name="row2_header_y" value="72"/>
