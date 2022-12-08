@@ -3884,11 +3884,11 @@
 						<action function="page">confirm_action</action>
 					</actions>
 				</listitem>
-				<listitem name="{@install_magisk_alpha=Install Magisk Alpha}">
+				<listitem name="{@install_magisk_delta=Install Magisk Delta}">
 					<actions>
 						<action function="set">tw_back=advanced</action>
-						<action function="set">tw_customZipVerPath=/customzip/Magisk/MagiskAlphaVer</action>
-						<action function="set">tw_customZipPath=/customzip/Magisk/MagiskAlpha.apk</action>
+						<action function="set">tw_customZipVerPath=/customzip/Magisk/MagiskDeltaVer</action>
+						<action function="set">tw_customZipPath=/customzip/Magisk/MagiskDelta.apk</action>
 						<action function="preCustomFlashzip"/>
 						<action function="set">tw_action=customFlashzip</action>
 						<action function="set">tw_slider_text={@swipe_to_confirm=Swipe to Confirm}</action>
